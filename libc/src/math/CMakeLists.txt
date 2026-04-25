@@ -151,6 +151,7 @@ add_math_entrypoint_object(expf)
 add_math_entrypoint_object(expf16)
 
 add_math_entrypoint_object(exp2)
+add_math_entrypoint_object(exp2bf16)
 add_math_entrypoint_object(exp2f)
 add_math_entrypoint_object(exp2f16)
 

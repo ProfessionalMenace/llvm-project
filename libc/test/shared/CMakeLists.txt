@@ -94,6 +94,7 @@ add_fp_unittest(
     libc.src.__support.math.erff16
     libc.src.__support.math.exp
     libc.src.__support.math.exp2
+    libc.src.__support.math.exp2bf16
     libc.src.__support.math.exp2f
     libc.src.__support.math.exp2f16
     libc.src.__support.math.exp2m1f

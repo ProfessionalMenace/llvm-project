@@ -78,6 +78,7 @@ static_assert(bfloat16(0.0) == LIBC_NAMESPACE::shared::ceilbf16(bfloat16(0.0)));
 static_assert(bfloat16(0.0) ==
               LIBC_NAMESPACE::shared::copysignbf16(bfloat16(0.0),
                                                    bfloat16(0.0)));
+static_assert(bfloat16(1.0) == LIBC_NAMESPACE::shared::exp2bf16(bfloat16(0.0)));
 static_assert(bfloat16(0.0) ==
               LIBC_NAMESPACE::shared::floorbf16(bfloat16(0.0f)));
 static_assert(bfloat16(0.0) ==
